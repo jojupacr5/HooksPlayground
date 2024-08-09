@@ -6,12 +6,16 @@ import { createRoot } from 'react-dom/client'
 // import { SimpleForm } from './02-useEffect/SimpleForm'
 // import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook'
 // import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
-import { FocusScreen } from './04-useRef/FocusScreen'
+// import { FocusScreen } from './04-useRef/FocusScreen'
+// import { Memorize } from './05-memos/Memorize'
+// import { MemoHook } from './05-memos/MemoHook'
+// import { CallbackHook } from './05-memos/CallbackHook'
+import { Padre } from './07-tarea-memo/Padre'
 
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
-    <FocusScreen />
+    <Padre />
   // </StrictMode>,
 )
