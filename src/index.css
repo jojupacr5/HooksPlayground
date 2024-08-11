@@ -9,3 +9,7 @@ button {
 .cursor-pointer {
   cursor: pointer;
 }
+
+a {
+  margin-right: 8px;
+}
